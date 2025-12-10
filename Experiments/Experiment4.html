@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+</head>
+
+<body align="center">
+    <h1>Hotel Room Booking Form</h1>
+    <form action="submit_form.php" method="Post">
+        <label for="Full Name">Full Name</label>
+        <Input type="text" Id="Full Name" name="Full Name" placeholder="Enter Your Name" required>
+        <br></br>
+        <label for="email">Email</label>
+        <Input type="email" name="email" Id="email" placeholder="Enter Your Email" required>
+        <br></br>
+        <label for="tel">Phone</label>
+        <Input type="tel" name="tel" Id="tel" placeholder="Enter Your Phone Number" required>
+        <br></br>
+        <label for="date">Check-In-Date</label>
+        <Input type="date" id="Check-In-Date" required>
+        <br></br>
+        <label for="date">Check-Out-Date</label>
+        <Input type="date" id="Check-Out-Date" required>
+        <br></br>
+        <label for="select">Room Type</label>
+        <select name="select" id="select">
+            <option value>Select Your Option</option>
+            <option value="Single Room">Single Room</option>
+            <Option value="Double Room">Double Room</Option>
+            <option value="family">Family Room</option>
+        </select>
+        <br></br>
+        <label for="Guests">Number of Guests:</label>
+        <Input type="number" name="guests" id="guests" min="1" max="10" required>
+        <br></br>
+        <label for="requests">Special Requests:</label><br>
+        <textarea id="requests" name="requests" rows="4" cols="50"
+            placeholder="Enter any special requests here..."></textarea>
+        <br></br>
+        <button type="submit">Book Now</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>
