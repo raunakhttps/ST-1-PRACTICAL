@@ -1,0 +1,30 @@
+.container{
+    width: 900px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+      justify-content:center;
+      align-items: center;
+      align-content: space-around;
+      flex-wrap: wrap;
+      column-gap: 50px;
+      flex-direction: row;
+       border: 3px solid rgb(0, 0, 0);
+}
+
+.item{
+    width:200px;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(9, 151, 183);
+    text-align: center;
+}
+h2{
+  background-color: rgb(80, 156, 244);
+  padding:20px;
+  display: inline-flex;
+  border: 2px solid rgb(80, 156, 244);
+  border-radius: 100%;
+  color:white;
+
+}
